@@ -1,0 +1,15 @@
+﻿global using Microsoft.EntityFrameworkCore;
+global using System.Data;
+global using System.Data.Common;
+global using System.Linq.Expressions;
+global using EFCore.BulkExtensions;
+global using FNT_Persistence.Context;
+global using FNT_CrossCutting;
+global using FNT_Domain;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Logging;
+global using Microsoft.Extensions.Logging.Debug;
+global using FNT_Domain.MenuAggregates;
+global using FNT_Persistence.Repository;
+global using FNT_Domain.MenuAggregates.Interface;
